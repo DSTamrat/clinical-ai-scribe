@@ -1,3 +1,7 @@
+## 🚀 Live App
+
+👉 https://clinical-ai-scribe.streamlit.app
+
 🩺 Clinical AI Scribe Dashboard
 A Fast, Interactive, Data‑Driven Platform for Clinical Transcript Analytics
 
