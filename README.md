@@ -1,16 +1,15 @@
-## 🚀 Live App
+## Live App
 
-👉 https://clinical-ai-scribe.streamlit.app
+https://clinical-ai-scribe.streamlit.app
 
-🩺 Clinical AI Scribe Dashboard
+Clinical AI Scribe Dashboard
 A Fast, Interactive, Data‑Driven Platform for Clinical Transcript Analytics
 
-📘 Introduction
+Introduction
 The Clinical AI Scribe Dashboard is an interactive analytics platform designed to transform raw clinical transcripts into meaningful insights. Built with Streamlit, SQLite, Altair, and Python, the dashboard enables clinicians, analysts, and researchers to explore documentation patterns, provider activity, patient encounters, and text‑based trends in real time.
 
 Clinical notes are long, unstructured, and difficult to analyze manually. This dashboard solves that challenge by providing a fast, intuitive, and visually rich interface for exploring clinical documentation at scale.
-
-❗ Problem Statement
+ Problem Statement
 Clinical documentation is essential for patient care, billing, compliance, and quality assurance. However, healthcare organizations face several challenges:
 
 Clinical transcripts are unstructured and time‑consuming to review
@@ -23,7 +22,7 @@ Analysts struggle to extract insights from raw text without specialized tools
 
 There is a clear need for a centralized, interactive, and efficient platform that can analyze clinical transcripts and surface actionable insights.
 
-🎯 Objectives
+Objectives
 This project aims to:
 
 Build a fast, interactive dashboard for clinical transcript analytics
@@ -75,7 +74,7 @@ Session‑state engine initialization
 
 Lazy loading of expensive text operations
 
-🤖 Models Used
+Models Used
 This version of the dashboard uses lightweight analytical models:
 
 1. Text Length Model
@@ -92,7 +91,7 @@ This version of the dashboard uses lightweight analytical models:
 
 Future versions may include NLP models such as ClinicalBERT, spaCy clinical NER, topic modeling, and sentiment analysis.
 
-📊 Results & Findings
+ Results & Findings
 Using the dashboard, users can uncover insights such as:
 
 Variation in transcript length across providers
@@ -109,7 +108,7 @@ Keyword‑based transcript search results
 
 These insights help clinicians and administrators understand documentation behavior and identify opportunities for improvement.
 
-🧠 Lessons Learned
+ Lessons Learned
 Key lessons from building this project:
 
 Streamlit reruns the entire script on every interaction — caching is essential
@@ -122,7 +121,7 @@ Filtering large text fields is slow — caching filtered results improves respon
 
 UI/UX matters — metric cards, clean layout, and intuitive navigation improve usability
 
-🧩 Application of the Project
+Application of the Project
 This dashboard can be applied in multiple real‑world scenarios:
 
 Clinical Operations
